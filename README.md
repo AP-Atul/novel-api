@@ -1,12 +1,12 @@
-# novel-api
-API/Scrapper for Light Novels
+# What is it?
+API/Scrapper for [Light Novels](https://www.readlightnovel.org/)
 
-Scrapper for https://www.readlightnovel.org/
+App making use of this API [mangatain](https://github.com/AP-Atul/mangatain)
 
 ## Usage 
 1. Download the jar file
 ```console
-wget https://github.com/AP-Atul/novel-api/raw/main/jar/ln-v0.1.jar
+wget https://github.com/AP-Atul/novel-api/releases/download/v0.1/ln-v0.1.jar
 ```
 
 2. Add to the project.
