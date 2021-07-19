@@ -10,7 +10,10 @@ public class NConstant {
     public static final String SEARCH_URL = "https://www.readlightnovel.org/search/autocomplete";
 
     // headers
-    public static final HashMap<String, String> HEADERS = new HashMap<String, String> () {{
+    public static final HashMap<String, String> HEADERS = new HashMap<String, String> () {
+		private static final long serialVersionUID = 1L;
+
+	{
         put("Cache-Control", "public max-age=604800");
         put("x-requested-with", "XMLHttpRequest");
     }};
@@ -18,7 +21,10 @@ public class NConstant {
     public static final String USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201";
 
     // all genres
-    public static final HashMap<String, String> genres = new HashMap<String, String>() {{
+    public static final HashMap<String, String> genres = new HashMap<String, String>() {
+		private static final long serialVersionUID = 1L;
+
+	{
         put("Action", "action");
         put("Adventure", "adventure");
         put("Celebrity", "celebrity");
